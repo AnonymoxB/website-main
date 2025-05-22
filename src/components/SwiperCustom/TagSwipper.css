@@ -1,0 +1,23 @@
+
+
+.swiper-button-next-custom {
+    background-image: url(/assets/next-btn.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    height: 44px!important;
+    width: 44px!important;
+  }
+  
+  .swiper-button-prev-custom {
+    background-image: url(/assets/prev-btn.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    height: 44px!important;
+    width: 44px!important;
+  }
+  
+  .swiper-button-next::after, .swiper-button-prev::after {
+    display: none;
+  }
